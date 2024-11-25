@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Documents</title>
+</head>
+<body>
+
+    <h2>Form Elements</h2>
+
+    <form action method="post">
+     
+        <label>Text Box:</label>
+        <input type="text" id="t1" name="name" value="" placeholder="Enter your name"><br>
+
+        
+        <label>Choose your gender:</label>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+        </div>
+
+        
+        <label>Accept Terms:</label>
+        <input type="checkbox" id="c1" name="terms" value="accepted"> I agree to the terms and conditions.<br><br>
+
+        
+        <label>Upload File:</label>
+        <input type="file" id="e1" name="file"><br><br>
+
+       
+        <label>Select your semester:</label>
+        <select>
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+        </select><br><br>
+
+        
+        <label>About You:</label>
+        <textarea id="ta1" name="textarea" rows="4" cols="50" placeholder="Write a brief description about yourself."></textarea><br><br>
+
+        
+        <fieldset>
+            <legend>Personal Details:</legend>
+            <label>First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+            <label>Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
+        </fieldset><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
